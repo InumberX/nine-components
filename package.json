@@ -1,0 +1,43 @@
+{
+ "name": "src",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "storybook": "start-storybook -p 6006",
+  "build-storybook": "build-storybook"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "devDependencies": {
+  "@babel/core": "^7.12.13",
+  "@storybook/addon-actions": "^6.1.17",
+  "@storybook/addon-essentials": "^6.1.17",
+  "@storybook/addon-links": "^6.1.17",
+  "@storybook/html": "^6.1.17",
+  "babel-loader": "^8.2.2",
+  "css-loader": "^5.0.2",
+  "ejs-compiled-loader": "^3.0.0",
+  "sass-loader": "^10.1.1",
+  "style-loader": "^2.0.0",
+  "gulp": "^4.0.2",
+  "gulp-ejs": "^5.1.0",
+  "gulp-rename": "^2.0.0",
+  "gulp-sass": "^4.1.0"
+ },
+ "dependencies": {
+  "@pickra/copy-code-block": "^1.2.0",
+  "@storybook/addon-a11y": "^6.1.17",
+  "@storybook/addon-backgrounds": "^6.1.17",
+  "@storybook/addon-docs": "^6.1.17",
+  "@storybook/addon-knobs": "^6.1.17",
+  "@storybook/addon-notes": "^5.3.21",
+  "@storybook/addon-storysource": "^6.1.17",
+  "@storybook/addon-viewport": "^6.1.17",
+  "@storybook/theming": "^6.1.17",
+  "node-sass": "^5.0.0",
+  "storybook-dark-mode": "^1.0.4"
+ }
+}
